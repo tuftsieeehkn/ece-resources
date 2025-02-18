@@ -1,14 +1,51 @@
 # Tufts ECE Resources
 NOTE: This is a work in progress for now. More links and resources will be added soon!
 
+<!-- TODO: ## Contents -->
+
+## Tufts Student Resources / Software
+- [GitHub Education](https://github.com/education/students)
+  - Sign Up For Free GitHub Pro, and lots of other benefits while you are a student
+- [Tufts EECS Password Reset Page](https://www.eecs.tufts.edu/~accounts/reset.cgi)
+
+### Access to Apps Through Tufts
+- [All Tufts IT Software & Apps](https://access.tufts.edu/software)
+- Wolfram Alpha Pro
+  - Sign in with your @tufts.edu address for free access
+
+### Free Plans for Students
+- [Altium Designer](https://www.altium.com/education/students)
+- [JetBrains Educational Licenses](https://www.jetbrains.com/community/education/#students)
+
 ## General
 
 ## Tutorials
+
+### Halligan Server / Linux Tutorials
+- SFTP Configs
+- SSH Keys and Aliases (log in without a password!)
+- VSCode Remote SSH
+- Connecting to Halligan on windows
+- Halligan linux command cheat sheet
+
+### VSCode Tutorials
+- Useful Extensions to have
+- Platformio
+- SFTP Setup
+- Remove Development Extension
+
+### Git
 - Using Git
 - Using GitHub
+- Contributing to Open Source
+- Contributing to this Repository!
 
-## Working With Halligan Servers
-- SFTP Configs
-- SSH Keys
-- VSCode Remote SSH
-- 
+### Software
+- SPICE
+- PCB Design (Altium Designer)
+  - [Altium Student Lab](https://www.altium.com/education/students) (Collection of tutorials)
+
+
+
+## Job Resources
+- LaTeX Resume Template
