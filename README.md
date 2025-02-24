@@ -10,7 +10,8 @@ NOTE: This is a work in progress for now. More links and resources will be added
 
 ### Access to Apps Through Tufts
 - [All Tufts IT Software & Apps](https://access.tufts.edu/software)
-- Wolfram Alpha Pro
+- [Wolfram Alpha Pro](https://www.wolframalpha.com/)
+  - Gives step by step solutions to many types of math problems
   - Sign in with your @tufts.edu address for free access
 
 ### Free Plans for Students
@@ -35,6 +36,7 @@ NOTE: This is a work in progress for now. More links and resources will be added
 - Remove Development Extension
 
 ### Git
+- [Writing Markdown](tutorials/markdown.md)
 - Using Git
 - Using GitHub
 - Contributing to Open Source
