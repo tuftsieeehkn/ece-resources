@@ -13,6 +13,8 @@ NOTE: This is a work in progress for now. More links and resources will be added
 - [Wolfram Alpha Pro](https://www.wolframalpha.com/)
   - Gives step by step solutions to many types of math problems
   - Sign in with your @tufts.edu address for free access
+- Matlab License
+- One month free of ChatGPT Plus for Tufts Students (via verified @tufts.edu email address): http://chatgpt.com/students/jumbo
 
 ### Free Plans for Students
 - [Altium Designer](https://www.altium.com/education/students)
