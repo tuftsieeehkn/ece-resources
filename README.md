@@ -51,6 +51,7 @@ NOTE: This is a work in progress for now. More links and resources will be added
   - QSPICE (rising)
 - PCB Design (Altium Designer)
   - [Altium Student Lab](https://www.altium.com/education/students) (Collection of tutorials)
+  - [Quick tips on PCB design](tutorials/pcb_quick_tips.md)
 
 
 
