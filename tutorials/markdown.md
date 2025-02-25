@@ -60,11 +60,13 @@ A bulleted list is written like this:
 - Item one
 - Item two
 - Item three
+    - A nested item!
 ```
 And displayed like this:
 - Item one
 - Item two
 - Item three
+  - A nested item!
 
 ## Code
 As you have probably noticed, I've been inserting code snippets throughout this document. `Inline code formatting` is done with a `` `backtick on both sides` ``.
@@ -91,3 +93,18 @@ def hello():
     print("Hello world!")
 
 ```
+
+## Links
+Markdown allows you to insert links with the syntax: `[link text](link url)`.
+
+For example, the markdown `[Tufts ECE Resources](https://github.com/tuftsieeehkn/ece-resources/)` is display as [Tufts ECE Resources](https://github.com/tuftsieeehkn/ece-resources/).
+
+## Images
+
+Images have a similar syntax o links: `![Image Title or Description](/path/or/url/to/image)`
+
+For example a random placeholder image from [this website](https://picsum.photos) could be inserted like this:
+
+`![Random Image](https://picsum.photos/300/200)`
+
+![Random Image](https://picsum.photos/300/200)
