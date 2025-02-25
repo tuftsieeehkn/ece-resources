@@ -1,0 +1,4 @@
+# VS Code SFTP Tutorial
+SFTP  (Secure File Transfer Protocol) is a network protocol that allows users to securely transfer, access, and manage files over a network. As Tufts students we have easy access to the Halligan network, where we can store files remotely. Using SFTP with your Halligan account makes it easy to sync files accross multiple personal computers as well as the Tufts EECS computers. VS Code has an extension which uses SFTP to automatically upload changes you make on a local document to the corresponding document stored remotely on the network (in this case Halligan). This extension also makes it easy to download the latest version of a document or folder that is stored remotely. If you have taken CS 11 or CS 15 you have most likely already used this, but it is very useful for other classes as well as personal projects. We'll now go into how to install and use this extension.
+
+## Installation
