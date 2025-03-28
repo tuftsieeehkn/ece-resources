@@ -56,4 +56,4 @@ NOTE: This is a work in progress for now. More links and resources will be added
 
 
 ## Job Resources
-- LaTeX Resume Template
+- [LaTeX Resume Template](resources/resume.tex)

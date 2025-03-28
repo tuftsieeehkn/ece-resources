@@ -1,0 +1,171 @@
+%-------------------------
+% Resume in Latex
+% Author : Generic Name
+%------------------------
+
+% Document class: you can change the font size by adjusting the number before 'pt' (e.g., 10pt, 12pt)
+\documentclass[letterpaper,18pt]{article}
+
+% Packages used for formatting
+\usepackage{latexsym}
+\usepackage[empty]{fullpage} % Sets page margins
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem} % Control list formatting
+\usepackage[dvipsnames]{xcolor} % Colors
+\usepackage[pdftex]{hyperref} % Links
+\hypersetup{
+    colorlinks=true, % Link colors
+    linkcolor=blue,  % Color of internal links (sections, references)
+    filecolor=magenta, % File links
+    urlcolor=RoyalBlue  % URL color
+}
+
+% Page layout adjustments
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clear all headers and footers
+\fancyfoot{} % No footer
+\renewcommand{\headrulewidth}{0pt} % No header rule
+\renewcommand{\footrulewidth}{0pt} % No footer rule
+
+% Adjusting page margins
+% To increase or decrease spacing, adjust the values below (e.g., change -0.375in to -0.25in to increase margins)
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same} % Keeps the same font for URLs
+
+% This setting controls if the text is aligned to the left or justified.
+\raggedbottom % If you want justified text instead of ragged-right, replace this line with \justifying
+\raggedright
+\setlength{\tabcolsep}{0in} % Adjusts table column separation
+
+% Formatting for section titles
+% To increase the spacing before/after sections, adjust \vspace{-4pt} and \vspace{-5pt}
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+% General formatting commands
+
+% Command for section titles, modify \vspace{-8pt} for extra spacing before sections
+\newcommand{\resumeSection}[1]{\vspace{-10pt} \section{#1}}
+
+% Subheadings for sections (like Education or Experience)
+% You can adjust \vspace{-1pt} and \vspace{-2pt} to increase or reduce space around each subheading
+\newcommand{\resumeSubHeading}[4]{
+    \vspace{-1pt}
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & #2 \vspace{-2pt} \\
+        \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}
+}
+
+% Command for project titles
+\newcommand{\resumeProject}[1]{\textbf{#1}\vspace{0pt}}
+
+% List start command
+% Adjust itemsep to control the space between bullet points
+\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=0em]\vspace{-4pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% Single bullet point
+\newcommand{\resumeItem}[1]{\vspace{-5pt}\item\small{ #1 }}
+
+% Contact info
+% Modify the font size by adjusting \Large, and modify the alignment or spacing with \vspace commands
+\newcommand{\resumeContact}[4]{
+  \begin{center}
+    \textbf{\Large #1} \\ % Name font size
+    #2 $|$ #3 $|$ \href{#4}{linkedin.com/in/generic-profile}
+  \end{center}
+}
+
+% New tab for URLs
+\newcommand{\urlNewWindow}[1]{\href[pdfnewwindow=true]{#1}{\nolinkurl{#1}}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE %%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\resumeContact{Generic Name}{email@example.com}{(123) 456-7890}{https://www.linkedin.com/in/generic-profile}
+
+% You can add space after the contact info if needed using \vspace
+\vspace{-10pt}
+
+%-----------EDUCATION-----------------
+\resumeSection{Education}
+% Modify the spacing above/below subheadings using \vspace within the resumeSubHeading command
+\resumeSubHeading{Generic University}{City, State}{Bachelor of Science in Your Major, Minor in Subject}{Month Year}
+\textit{\small GPA: 3.XX, Relevant Honors, Dean's List} \\
+\textbf{Relevant Courses:} Course 1, Course 2, Course 3, etc.
+
+%-----------EXPERIENCE-----------------
+\resumeSection{Experience}
+
+% Example of a job entry
+\resumeSubHeading{Company}{Location}{Title}{Now - Everywhere}
+\resumeItemListStart
+    \resumeItem{Responsibility or accomplishment. Try to always fill up the lines on the page as much as you can}
+    \resumeItem{Another responsibility or accomplishment.}
+\resumeItemListEnd
+
+% Another job entry
+% \resumeSubHeading{Tufts}{City, State}{Job Title}{Month Year - Month Year}
+% \resumeItemListStart
+%     \resumeItem{Responsibility or accomplishment.}
+%     \resumeItem{Another responsibility or accomplishment.}
+% \resumeItemListEnd
+
+% Example of a job entry
+\resumeSubHeading{Company Name}{City, State}{Job Title}{Month Year - Month Year}
+\resumeItemListStart
+    \resumeItem{Responsibility or accomplishment.}
+    \resumeItem{Another responsibility or accomplishment.}
+\resumeItemListEnd
+
+% Another job entry
+\resumeSubHeading{Company Name}{City, State}{Job Title}{Month Year - Month Year}
+\resumeItemListStart
+    \resumeItem{Responsibility or accomplishment.}
+    \resumeItem{Another responsibility or accomplishment.}
+\resumeItemListEnd
+
+%-----------PROJECTS-----------------
+\resumeSection{Projects}
+% Each project listed here
+\resumeProject{Project Title}
+\resumeItemListStart
+    \resumeItem{Description or outcome of the project.}
+    \resumeItem{Technical tools or methodologies used.}
+\resumeItemListEnd
+
+\resumeProject{Another Project Title}
+\resumeItemListStart
+    \resumeItem{Description or outcome of the project.}
+    \resumeItem{Technical tools or methodologies used.}
+\resumeItemListEnd
+
+%-----------LEADERSHIP-----------------
+\resumeSection{Leadership}
+\resumeSubHeading{IEEE}{City, State}{Position}{Month Year - Present}
+\resumeSubHeading{Club Name}{City, State}{Position}{Month Year - Month Year}
+\resumeSubHeading{Club Name}{City, State}{Position}{Month Year - Month Year}
+
+%-----------SKILLS-----------------
+\resumeSection{Skills}
+% You can adjust font size for this section by replacing \small with another size (e.g., \footnotesize or \normalsize)
+\small \textbf{Programming: }{Languages, tools, etc.} \\
+\textbf{Technical Skills: }{Hardware, software, technologies, etc.}
+
+%-------------------------------------------
+\end{document}
