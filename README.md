@@ -31,6 +31,7 @@ NOTE: This is a work in progress for now. More links and resources will be added
 - VSCode Remote SSH
 - Connecting to Halligan on windows
 - Halligan linux command cheat sheet
+- GDB
 
 ### VSCode Tutorials
 - Useful Extensions to have
