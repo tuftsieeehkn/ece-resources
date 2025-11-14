@@ -5,4 +5,7 @@ PlatformIO is set of open source software tools that enable software design for 
 If any of that sounded interesting to you keep reading! We'll be going over how to install and setup PlatformIO and then walk through a simple demo project.
 
 ## How to Install PlatformIO
-If you are in VSCode 
+If you are in VSCode you can simply navigate over to the extensions window. Once in the extensions window search for 'platformio' and click on the extension named 'PlatformIO IDE.' Once in the program click the 'Install' button and let it finish. Once this is done you should have PlatformIO installed.
+
+## Using PlatformIO
+Click on the little alien head logo (this is the PlatformIO logo) on the side of the VSCode sidebar. Now undert the 'QUICK ACCESS' dropdown expand the 'PIO Home' dropdown and click on the 'Open' button. Now you are in the PlatformIO home menu.
